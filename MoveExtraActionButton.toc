@@ -1,5 +1,5 @@
-## Interface: 20505, 50503
-## Version: 1.00
+## Interface: 20505, 50500, 50501, 50502, 50503, 50504
+## Version: 1.01
 ## Author: Pirson
 ## LoadOnDemand: 0
 
