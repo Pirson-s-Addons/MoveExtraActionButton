@@ -2,6 +2,9 @@ if WOW_PROJECT_ID ~= WOW_PROJECT_MISTS_CLASSIC then
     return
 end
 
+local ADDON_NAME, ns = ...
+local L = ns.L -- Locales/<idioma>.lua
+
 local EABMover = CreateFrame("Frame", "EABMover", UIParent, "BackdropTemplate")
 EABMover:SetSize(60, 60)
 EABMover:SetPoint("CENTER", UIParent, "CENTER", 0, -150)
@@ -19,7 +22,7 @@ EABMover:SetBackdropColor(0, 0.6, 1, 0.6)
 
 local eabLabel = EABMover:CreateFontString(nil, "OVERLAY", "GameFontNormal")
 eabLabel:SetPoint("TOP", EABMover, "BOTTOM", 0, -4)
-eabLabel:SetText("Extra Action Button")
+eabLabel:SetText(L["EXTRA_ACTION_BUTTON"])
 
 EABMover:EnableMouse(true)
 EABMover:SetMovable(true)
@@ -60,7 +63,7 @@ EAPMover:SetBackdropColor(0.8, 0.4, 0, 0.6)
 
 local eapLabel = EAPMover:CreateFontString(nil, "OVERLAY", "GameFontNormal")
 eapLabel:SetPoint("TOP", EAPMover, "BOTTOM", 0, -4)
-eapLabel:SetText("Alt Power Bar")
+eapLabel:SetText(L["ALT_POWER_BAR"])
 
 EAPMover:EnableMouse(true)
 EAPMover:SetMovable(true)
@@ -97,48 +100,25 @@ f:SetScript("OnEvent", function()
     EAP_ApplyPosition()
 end)
 
-SLASH_EAB1 = "/ea"
-SlashCmdList["EA"] = function()
-    msg = (msg or ""):lower():trim()
+local function PrintHelp()
+    print("|cffff4444[EAB]|r " .. L["HELP_HEADER"])
+    print("/eab - " .. L["HELP_EAB"])
+    print("/eap - " .. L["HELP_EAP"])
+end
 
-    if msg == "help" then
-        print("|cffff4444[EAP]|r Comandos disponibles:")
-        print("/eap -> Mover Alt Power Bar")
-        print("/eab -> Mover Extra Action Button")
+-- /eab y /eap: "help" muestra la ayuda; sin nada, muestra u oculta el marco
+local function Toggle(tag, mover, msg)
+    msg = (msg or ""):lower():trim()
+    if msg == "help" then return PrintHelp() end
+    if InCombatLockdown() then
+        print("|cffff4444[" .. tag .. "]|r " .. L["IN_COMBAT"])
         return
     end
+    mover:SetShown(not mover:IsShown())
 end
 
 SLASH_EAB1 = "/eab"
-SlashCmdList["EAB"] = function()
-    msg = (msg or ""):lower():trim()
-
-    if msg == "help" then
-        print("|cffff4444[EAP]|r Comandos disponibles:")
-        print("/eap -> Mover Alt Power Bar")
-        print("/eab -> Mover Extra Action Button")
-        return
-    end
-    if InCombatLockdown() then
-        print("|cffff4444[EAB]|r Cannot toggle during combat.")
-        return
-    end
-    EABMover:SetShown(not EABMover:IsShown())
-end
+SlashCmdList["EAB"] = function(msg) Toggle("EAB", EABMover, msg) end
 
 SLASH_EAP1 = "/eap"
-SlashCmdList["EAP"] = function()
-    msg = (msg or ""):lower():trim()
-
-    if msg == "help" then
-        print("|cffff4444[EAP]|r Comandos disponibles:")
-        print("/eap -> Mover Alt Power Bar")
-        print("/eab -> Mover Extra Action Button")
-        return
-    end
-    if InCombatLockdown() then
-        print("|cffff4444[EAP]|r Cannot toggle during combat.")
-        return
-    end
-    EAPMover:SetShown(not EAPMover:IsShown())
-end
+SlashCmdList["EAP"] = function(msg) Toggle("EAP", EAPMover, msg) end

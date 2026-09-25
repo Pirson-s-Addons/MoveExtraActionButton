@@ -1,9 +1,56 @@
 ## Interface: 20505, 20506, 50500, 50501, 50502, 50503, 50504
-## Version: 1.02
+## Version: 1.03
 ## Author: Pirson
 ## LoadOnDemand: 0
 
-## Title: |TInterface/AddOns/MoveExtraActionButton/img/eab-logo:16:16|t |cffd597ffMove Extra Action Button|r
+## IconTexture: Interface\AddOns\MoveExtraActionButton\img\eab-logo
+## Title: |cffd597ffMove Extra Action Button|r
+
+# https://warcraft.wiki.gg/wiki/Addon_Categories
+## Category: Action Bars
+## Category-deDE: Aktionsleisten
+## Category-esES: Barras de acción
+## Category-esMX: Barras de acción
+## Category-frFR: Barres d'action
+## Category-itIT: Barre delle azioni
+## Category-koKR: 행동 단축바
+## Category-ptBR: Barras de ação
+## Category-ruRU: Панели команд
+## Category-zhCN: 动作条
+## Category-zhTW: 快捷列
+## Category-plPL: Paski akcji
+## Category-svSE: Åtgärdsfält
+## Category-noNO: Handlingslinjer
+## Category-csCZ: Akční lišty
+## Category-nlNL: Actiebalken
+## Category-roRO: Bare de acțiuni
+## Category-huHU: Akciósávok
+## Category-elGR: Γραμμές ενεργειών
+## Category-ukUA: Панелі дій
+## Category-daDK: Handlingslinjer
+## Category-fiFI: Toimintopalkit
+## Category-skSK: Akčné lišty
+## Category-bgBG: Ленти за действия
+## Category-hrHR: Trake akcija
+## Category-srRS: Trake akcija
+## Category-slSI: Vrstice dejanj
+## Category-ltLT: Veiksmų juostos
+## Category-lvLV: Darbību joslas
+## Category-etEE: Tegevusribad
+## Category-idID: Bilah aksi
+## Category-msMY: Bar tindakan
+## Category-faIR: نوارهای اکشن
+## Category-heIL: סרגלי פעולות
+## Category-bnBD: অ্যাকশন বার
+## Category-urPK: ایکشن بارز
+## Category-taIN: செயல் பட்டைகள்
+## Category-teIN: చర్య పట్టీలు
+## Category-trTR: Eylem çubukları
+## Category-jaJP: アクションバー
+## Category-arSA: أشرطة الإجراءات
+## Category-hiIN: एक्शन बार
+## Category-thTH: แถบการกระทำ
+## Category-viVN: Thanh hành động
 
 ## Notes: |cFF33CCFFMove the ExtraActionButton1 anywhere on your screen.|r|n|n|cffbbbbbbUse /eab to show or hide the movable frame.|r
 ## Notes-deDE: |cFF33CCFFVerschiebt den ExtraActionButton1 überall auf dem Bildschirm.|r|n|n|cffbbbbbbBenutze /eab, um das bewegliche Fenster ein- oder auszublenden.|r
@@ -13,13 +60,64 @@
 ## Notes-itIT: |cFF33CCFFSposta l’ExtraActionButton1 ovunque sullo schermo.|r|n|n|cffbbbbbbUsa /eab per mostrare o nascondere il frame spostabile.|r
 ## Notes-koKR: |cFF33CCFFExtraActionButton1을 화면 어디서나 이동할 수 있습니다.|r|n|n|cffbbbbbb/eab 명령어로 이동 프레임 표시/숨기기.|r
 ## Notes-ptBR: |cFF33CCFFMove o ExtraActionButton1 para qualquer lugar na tela.|r|n|n|cffbbbbbbUse /eab para mostrar ou ocultar o quadro movível.|r
-## Notes-ptPT: |cFF33CCFFMove o ExtraActionButton1 para qualquer lugar no ecrã.|r|n|n|cffbbbbbbUse /eab para mostrar ou ocultar o quadro movível.|r
 ## Notes-ruRU: |cFF33CCFFПеремещайте ExtraActionButton1 в любом месте экрана.|r|n|n|cffbbbbbbИспользуйте /eab, чтобы показать или скрыть рамку.|r
 ## Notes-zhCN: |cFF33CCFF将 ExtraActionButton1 移动到屏幕任意位置。|r|n|n|cffbbbbbb使用 /eab 显示或隐藏可移动框架。|r
 ## Notes-zhTW: |cFF33CCFF將 ExtraActionButton1 移動到螢幕任意位置。|r|n|n|cffbbbbbb使用 /eab 顯示或隱藏可移動框架。|r
+## Notes-plPL: |cFF33CCFFPrzesuń ExtraActionButton1 w dowolne miejsce na ekranie.|r|n|n|cffbbbbbbUżyj /eab, aby pokazać lub ukryć ruchomą ramkę.|r
+## Notes-svSE: |cFF33CCFFFlytta ExtraActionButton1 var som helst på skärmen.|r|n|n|cffbbbbbbAnvänd /eab för att visa eller dölja den flyttbara ramen.|r
+## Notes-noNO: |cFF33CCFFFlytt ExtraActionButton1 hvor som helst på skjermen.|r|n|n|cffbbbbbbBruk /eab for å vise eller skjule den flyttbare rammen.|r
+## Notes-csCZ: |cFF33CCFFPřesuň ExtraActionButton1 kamkoli na obrazovku.|r|n|n|cffbbbbbbPoužij /eab pro zobrazení nebo skrytí přesouvacího rámečku.|r
+## Notes-nlNL: |cFF33CCFFVerplaats de ExtraActionButton1 overal op je scherm.|r|n|n|cffbbbbbbGebruik /eab om het verplaatsbare frame te tonen of te verbergen.|r
+## Notes-roRO: |cFF33CCFFMută ExtraActionButton1 oriunde pe ecran.|r|n|n|cffbbbbbbFolosește /eab pentru a afișa sau ascunde cadrul mobil.|r
+## Notes-huHU: |cFF33CCFFMozgasd az ExtraActionButton1-et bárhová a képernyőn.|r|n|n|cffbbbbbbA /eab paranccsal megjelenítheted vagy elrejtheted a mozgatható keretet.|r
+## Notes-elGR: |cFF33CCFFΜετακίνησε το ExtraActionButton1 οπουδήποτε στην οθόνη.|r|n|n|cffbbbbbbΧρησιμοποίησε /eab για εμφάνιση ή απόκρυψη του κινητού πλαισίου.|r
+## Notes-ukUA: |cFF33CCFFПереміщуй ExtraActionButton1 будь-куди на екрані.|r|n|n|cffbbbbbbВикористовуй /eab, щоб показати або сховати рамку переміщення.|r
+## Notes-daDK: |cFF33CCFFFlyt ExtraActionButton1 hvor som helst på skærmen.|r|n|n|cffbbbbbbBrug /eab til at vise eller skjule den flytbare ramme.|r
+## Notes-fiFI: |cFF33CCFFSiirrä ExtraActionButton1 minne tahansa näytöllä.|r|n|n|cffbbbbbbKäytä /eab-komentoa siirrettävän kehyksen näyttämiseen tai piilottamiseen.|r
+## Notes-skSK: |cFF33CCFFPresuň ExtraActionButton1 kamkoľvek na obrazovku.|r|n|n|cffbbbbbbPouži /eab na zobrazenie alebo skrytie presúvacieho rámčeka.|r
+## Notes-bgBG: |cFF33CCFFПремести ExtraActionButton1 където пожелаеш на екрана.|r|n|n|cffbbbbbbИзползвай /eab, за да покажеш или скриеш подвижната рамка.|r
+## Notes-hrHR: |cFF33CCFFPremjesti ExtraActionButton1 bilo gdje na zaslonu.|r|n|n|cffbbbbbbUpotrijebi /eab za prikaz ili skrivanje pomičnog okvira.|r
+## Notes-srRS: |cFF33CCFFPomeri ExtraActionButton1 bilo gde na ekranu.|r|n|n|cffbbbbbbKoristi /eab za prikaz ili skrivanje pomičnog okvira.|r
+## Notes-slSI: |cFF33CCFFPremakni ExtraActionButton1 kamorkoli na zaslonu.|r|n|n|cffbbbbbbUporabi /eab za prikaz ali skritje premičnega okvirja.|r
+## Notes-ltLT: |cFF33CCFFPerkelk ExtraActionButton1 bet kur ekrane.|r|n|n|cffbbbbbbNaudok /eab, kad parodytum arba paslėptum perkeliamą rėmelį.|r
+## Notes-lvLV: |cFF33CCFFPārvieto ExtraActionButton1 jebkur ekrānā.|r|n|n|cffbbbbbbIzmanto /eab, lai parādītu vai paslēptu pārvietojamo rāmi.|r
+## Notes-etEE: |cFF33CCFFLiiguta ExtraActionButton1 ekraanil ükskõik kuhu.|r|n|n|cffbbbbbbKasuta /eab liigutatava raami näitamiseks või peitmiseks.|r
+## Notes-idID: |cFF33CCFFPindahkan ExtraActionButton1 ke mana saja di layarmu.|r|n|n|cffbbbbbbGunakan /eab untuk menampilkan atau menyembunyikan bingkai yang bisa dipindah.|r
+## Notes-msMY: |cFF33CCFFAlihkan ExtraActionButton1 ke mana-mana di skrin anda.|r|n|n|cffbbbbbbGunakan /eab untuk menunjukkan atau menyembunyikan bingkai boleh alih.|r
+## Notes-faIR: |cFF33CCFFExtraActionButton1 را به هر جای صفحه منتقل کنید.|r|n|n|cffbbbbbbاز /eab برای نمایش یا پنهان کردن قاب قابل جابه‌جایی استفاده کنید.|r
+## Notes-heIL: |cFF33CCFFהזז את ExtraActionButton1 לכל מקום במסך.|r|n|n|cffbbbbbbהשתמש ב-‎/eab כדי להציג או להסתיר את המסגרת הניתנת להזזה.|r
+## Notes-bnBD: |cFF33CCFFExtraActionButton1 স্ক্রিনের যেকোনো জায়গায় সরান।|r|n|n|cffbbbbbbসরানোর ফ্রেম দেখাতে বা লুকাতে /eab ব্যবহার করুন।|r
+## Notes-urPK: |cFF33CCFFExtraActionButton1 کو اسکرین پر کہیں بھی منتقل کریں۔|r|n|n|cffbbbbbbحرکت پذیر فریم دکھانے یا چھپانے کے لیے /eab استعمال کریں۔|r
+## Notes-taIN: |cFF33CCFFExtraActionButton1 ஐ திரையில் எங்கு வேண்டுமானாலும் நகர்த்துங்கள்.|r|n|n|cffbbbbbbநகர்த்தும் சட்டத்தைக் காட்ட அல்லது மறைக்க /eab ஐப் பயன்படுத்துங்கள்.|r
+## Notes-teIN: |cFF33CCFFExtraActionButton1 ని స్క్రీన్‌పై ఎక్కడికైనా తరలించండి.|r|n|n|cffbbbbbbకదిలే ఫ్రేమ్‌ను చూపించడానికి లేదా దాచడానికి /eab ఉపయోగించండి.|r
+## Notes-trTR: |cFF33CCFFExtraActionButton1'i ekranda istediğin yere taşı.|r|n|n|cffbbbbbbTaşınabilir çerçeveyi göstermek veya gizlemek için /eab kullan.|r
+## Notes-jaJP: |cFF33CCFFExtraActionButton1 を画面上の好きな場所に移動できます。|r|n|n|cffbbbbbb/eab で移動用フレームを表示/非表示にします。|r
+## Notes-arSA: |cFF33CCFFانقل ExtraActionButton1 إلى أي مكان على شاشتك.|r|n|n|cffbbbbbbاستخدم /eab لإظهار الإطار القابل للتحريك أو إخفائه.|r
+## Notes-hiIN: |cFF33CCFFExtraActionButton1 को स्क्रीन पर कहीं भी ले जाएँ।|r|n|n|cffbbbbbbहिलाने वाला फ़्रेम दिखाने या छिपाने के लिए /eab का उपयोग करें।|r
+## Notes-thTH: |cFF33CCFFย้าย ExtraActionButton1 ไปที่ใดก็ได้บนหน้าจอ|r|n|n|cffbbbbbbใช้ /eab เพื่อแสดงหรือซ่อนกรอบที่ย้ายได้|r
+## Notes-viVN: |cFF33CCFFDi chuyển ExtraActionButton1 tới bất kỳ đâu trên màn hình.|r|n|n|cffbbbbbbDùng /eab để hiện hoặc ẩn khung di chuyển.|r
 
 ## X-Curse-Project-ID: 1308021
 
-
-Source_TBC/MoveExtraActionButton.lua
-Source_MoP/MoveExtraActionButton.lua
+Locales/enUS.lua
+Locales/esES.lua
+Locales/deDE.lua
+Locales/frFR.lua
+Locales/itIT.lua
+Locales/ptBR.lua
+Locales/ruRU.lua
+Locales/koKR.lua
+Locales/zhCN.lua
+Locales/zhTW.lua
+Locales/plPL.lua
+Locales/svSE.lua
+Locales/noNO.lua
+Locales/trTR.lua
+Locales/jaJP.lua
+Locales/arSA.lua
+Locales/hiIN.lua
+Locales/thTH.lua
+Locales/viVN.lua
+Locales/csCZ.lua
+Core/TBC.lua
+Core/MoP.lua

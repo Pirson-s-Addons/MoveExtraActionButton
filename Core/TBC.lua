@@ -2,7 +2,8 @@ if WOW_PROJECT_ID ~= WOW_PROJECT_BURNING_CRUSADE_CLASSIC then
     return
 end
 
-local ADDON_NAME = ...
+local ADDON_NAME, ns = ...
+local L = ns.L -- Locales/<idioma>.lua
 
 local mover = CreateFrame("Frame", "EABMover", UIParent)
 mover:SetSize(60, 60)
@@ -22,7 +23,7 @@ border:SetColorTexture(0, 0, 0, 1)
 
 local label = mover:CreateFontString(nil, "OVERLAY", "GameFontNormal")
 label:SetPoint("TOP", mover, "BOTTOM", 0, -4)
-label:SetText("Extra Action Button")
+label:SetText(L["EXTRA_ACTION_BUTTON"])
 
 mover:EnableMouse(true)
 mover:SetMovable(true)
