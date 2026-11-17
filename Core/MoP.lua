@@ -122,3 +122,9 @@ SlashCmdList["EAB"] = function(msg) Toggle("EAB", EABMover, msg) end
 
 SLASH_EAP1 = "/eap"
 SlashCmdList["EAP"] = function(msg) Toggle("EAP", EAPMover, msg) end
+
+-- Menu de addons del minimapa (## AddonCompartmentFunc del .toc): lo mismo que el comando
+function MoveExtraActionButton_OnAddonCompartmentClick()
+    local open = SlashCmdList and SlashCmdList.EAB
+    if open then open("") end
+end

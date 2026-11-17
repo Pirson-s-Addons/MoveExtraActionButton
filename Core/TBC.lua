@@ -58,3 +58,9 @@ SLASH_EAB1 = "/eab"
 SlashCmdList["EAB"] = function()
     mover:SetShown(not mover:IsShown())
 end
+
+-- Menu de addons del minimapa (## AddonCompartmentFunc del .toc): lo mismo que el comando
+function MoveExtraActionButton_OnAddonCompartmentClick()
+    local open = SlashCmdList and SlashCmdList.EAB
+    if open then open("") end
+end

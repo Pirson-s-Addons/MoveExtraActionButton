@@ -97,7 +97,12 @@
 ## Notes-thTH: |cFF33CCFFย้าย ExtraActionButton1 ไปที่ใดก็ได้บนหน้าจอ|r|n|n|cffbbbbbbใช้ /eab เพื่อแสดงหรือซ่อนกรอบที่ย้ายได้|r
 ## Notes-viVN: |cFF33CCFFDi chuyển ExtraActionButton1 tới bất kỳ đâu trên màn hình.|r|n|n|cffbbbbbbDùng /eab để hiện hoặc ẩn khung di chuyển.|r
 
-## X-Curse-Project-ID: 1308021
+## X-Curse-Project-ID: 1439079
+## X-License: MIT
+## X-Copyright: Copyright (c) 2026 Pirson
+## X-Website: https://github.com/Pirson-s-Addons/MoveExtraActionButton
+## X-Localizations: enUS, esES, esMX, deDE, frFR, itIT, ptBR, ruRU, koKR, zhCN, zhTW, plPL, svSE, noNO, trTR, jaJP, arSA, hiIN, thTH, viVN, csCZ
+## AddonCompartmentFunc: MoveExtraActionButton_OnAddonCompartmentClick
 
 Locales/enUS.lua
 Locales/esES.lua
