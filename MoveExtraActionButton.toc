@@ -98,6 +98,7 @@
 ## Notes-viVN: |cFF33CCFFDi chuyển ExtraActionButton1 tới bất kỳ đâu trên màn hình.|r|n|n|cffbbbbbbDùng /eab để hiện hoặc ẩn khung di chuyển.|r
 
 ## X-Curse-Project-ID: 1439079
+## X-Wago-ID: RNL4X0No
 ## X-License: MIT
 ## X-Copyright: Copyright (c) 2026 Pirson
 ## X-Website: https://github.com/Pirson-s-Addons/MoveExtraActionButton
